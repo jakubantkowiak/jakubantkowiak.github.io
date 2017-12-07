@@ -109,32 +109,3 @@ footer li img {
   width: 32px;
   height: 32px;
 }
-
-.docIcon {
-    background: #eee;
- 
-    background: -webkit-linear-gradient(top, #ddd 0, #eee 15%, #fff 40%, #fff 70%, #eee 100%);
-    background: -moz-linear-gradient(top, #ddd 0, #eee 15%, #fff 40%, #fff 70%, #eee 100%);
-    background: -o-linear-gradient(top, #ddd 0, #eee 15%, #fff 40%, #fff 70%, #eee 100%);
-    background: -ms-linear-gradient(top, #ddd 0, #eee 15%, #fff 40%, #fff 70%, #eee 100%);
-    background: linear-gradient(top, #ddd 0, #eee 15%, #fff 40%, #fff 70%, #eee 100%);
- 
-    border: 1px solid #ccc;
-    display: block;
-    width: 40px;
-    height: 56px;
-    position: relative;
-    margin: 0px auto;
-	
-	-webkit-box-shadow:inset rgba(255,255,255,0.8) 0 1px 1px;
-    -moz-box-shadow:inset rgba(255,255,255,0.8) 0 1px 1px;
-    box-shadow:inset rgba(255,255,255,0.8) 0 1px 1px;
- 
-    text-indent:-9999em;
-	
-	-webkit-border-radius:3px 15px 3px 3px;
-    -moz-border-radius:3px 15px 3px 3px;
-    border-radius:3px 15px 3px 3px;
-	background-image: url('https://cdn0.iconfinder.com/data/icons/HTML5/512/HTML_Logo.png');
-	background-size: auto;
-}
