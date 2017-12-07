@@ -37,14 +37,8 @@ header p {
 }
 
 .jumbotron {
-  display: flex;
   background-image: url('http://i63.tinypic.com/nz105v.jpg');
-  background-size: cover;
-  height: 100%;
-  color: #ffffff;
-  max-width: 100%;
-  height: auto;
-  text-shadow: 0.25px 0.25px 0.25px #000000;
+  background-size: cover;}
 }
 
 .jumbotron h2 {
