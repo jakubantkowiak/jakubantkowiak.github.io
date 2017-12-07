@@ -44,14 +44,14 @@ header p {
 .jumbotron h2 {
   font-size: 40px;
   font-weight: 700;
-  margin: 20px;
+  margin: 0px;
   color: #000000;
 }
 
 h2 {
   font-size: 40px;
   font-weight: 700;
-  margin: 20px;
+  margin: 0px;
   color: #000000;	
 }
 
@@ -64,12 +64,12 @@ h2 {
 }
 
 section .row img {
-  margin: 0 0 30px;
+  margin: 0 0 0px;
   width: 100%;
 }
 
 .col-md-6 {
-  margin: 0 0 30px;
+  margin: 0 0 0px;
 }
 
 .btn.btn-primary {
