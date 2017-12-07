@@ -24,13 +24,11 @@ footer .row {
 }
 
 header h1 {
-  font-weight: 700;
   margin: 0;
 }
 
 header nav {
-  display: flex;
-  justify-content: flex-end;
+
   
 }
 
@@ -42,6 +40,7 @@ header p {
 .jumbotron {
   background-image: url('http://i63.tinypic.com/nz105v.jpg');
   background-size: cover;
+  height: 100%;
 }
 
 .jumbotron h2 {
