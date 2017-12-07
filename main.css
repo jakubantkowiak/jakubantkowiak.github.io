@@ -2,7 +2,13 @@ body {
   font-family: 'Roboto', sans-serif;
   font-color: grey;
   font-weight: 300;
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
 }
+
 
 header {
   padding: 0 0;
