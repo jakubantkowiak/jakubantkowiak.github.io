@@ -16,7 +16,7 @@ header {
 
 header .row,
 footer .row {
-  display: flex;
+  display: static;
   align-items: center;
 }
 
