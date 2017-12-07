@@ -39,8 +39,8 @@ header p {
 .jumbotron {
   display: flex;
   background-image: url('http://i63.tinypic.com/nz105v.jpg');
-  background-repeat: no-repeat;
-  background-size: auto;
+  background-size: cover;
+  height: 100%;
   color: #ffffff;
   max-width: 100%;
   height: auto;
