@@ -27,11 +27,6 @@ header h1 {
   margin: 0;
 }
 
-header nav {
-
-  
-}
-
 header p {
   padding: 0px;
   margin: 0;
@@ -44,8 +39,14 @@ header p {
 }
 
 .jumbotron h2 {
-  font-size: 2em; 
+  font-size: 4em; 
   margin: 0px;
+  color: #000000;
+}
+
+.jumbotron p {
+  font-size: 1em; 
+  margin: 4em;
   color: #000000;
 }
 
