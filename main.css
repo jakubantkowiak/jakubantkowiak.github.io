@@ -36,7 +36,8 @@ header p {
   background-repeat: no-repeat;
   background-size: auto;
   color: #ffffff;
-  height: 500px;
+  max-width: 100%;
+  height: auto;
   text-shadow: 0.25px 0.25px 0.25px #000000;
 }
 
