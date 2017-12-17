@@ -11,8 +11,8 @@ body {
 
 
 header {
-  margin: 0px;
-    padding: 0px;
+  margin: 20px;
+    padding: 20px;
 }
 
 header .row,
@@ -24,7 +24,8 @@ footer .row {
 }
 
 header h1 {
-  margin: 0;
+  margin: 50px 75px 20px;
+  padding: 0px;
 }
 
 header p {
@@ -45,7 +46,7 @@ header p {
 }
 
 .jumbotron p {
-  font-size: 1em; 
+  font-size: 2.5em; 
   margin: 4em;
   color: #000000;
 }
@@ -111,3 +112,25 @@ footer li img {
   width: 32px;
   height: 32px;
 }
+
+
+
+.plus {
+  position: relative;
+  z-index: 1;
+  width: 80px;
+  height: 80px;
+  border-radius: 35%;
+  border: none;
+  -webkit-transition: -webkit-box-shadow 400ms cubic-bezier(0.2, 0, 0.7, 1), -webkit-transform 200ms cubic-bezier(0.2, 0, 0.7, 1);
+  transition: -webkit-box-shadow 400ms cubic-bezier(0.2, 0, 0.7, 1), -webkit-transform 200ms cubic-bezier(0.2, 0, 0.7, 1);
+  -o-transition: box-shadow 400ms cubic-bezier(0.2, 0, 0.7, 1), transform 200ms cubic-bezier(0.2, 0, 0.7, 1);
+  transition: box-shadow 400ms cubic-bezier(0.2, 0, 0.7, 1), transform 200ms cubic-bezier(0.2, 0, 0.7, 1);
+  transition: box-shadow 400ms cubic-bezier(0.2, 0, 0.7, 1), transform 200ms cubic-bezier(0.2, 0, 0.7, 1), -webkit-box-shadow 400ms cubic-bezier(0.2, 0, 0.7, 1), -webkit-transform 200ms cubic-bezier(0.2, 0, 0.7, 1); }
+  .plus:after {
+    content: "+";
+    font-size: 2.5em;
+    line-height: 1.1em; }
+  .plus:hover {
+    -webkit-box-shadow: 0 0 1px 5px rgba(138, 59, 88, 0.4), 0 0 1px 15px rgba(138, 59, 88, 0.1), 0 0 1px 15px rgba(138, 59, 88, 0.1);
+    box-shadow: 0 0 1px 5px rgba(138, 59, 88, 0.4), 0 0 1px 15px rgba(138, 59, 88, 0.1), 0 0 1px 15px rgba(138, 59, 88, 0.1); }
