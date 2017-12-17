@@ -67,11 +67,13 @@ h2 {
 }
 
 section .row img {
-  width: 3.5em;
+	margin-bottom: 25px;
+    width: 3.5em;
     height: auto;
 }
 
 section .center-block img {
+	
 	margin: 0px;
 	width 2em;
 }
