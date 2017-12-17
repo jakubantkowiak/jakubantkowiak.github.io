@@ -67,10 +67,14 @@ h2 {
 }
 
 section .row img {
-  margin: 10px;
-  width: 3em;
+  margin: 0px;
+  width: 5em;
 }
 
+section .center-block img {
+	margin: 0px;
+	width 2em;
+}
 .col-md-6 {
   margin: 0 0 0px;
 }
