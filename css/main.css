@@ -37,6 +37,8 @@ header p {
 .jumbotron {
   background-image: url('images/background_mob.jpg');
   background-size: cover;
+  width: 100%;
+  height: auto;
 }
 
 @media only screen and (min-width: 768px) {
