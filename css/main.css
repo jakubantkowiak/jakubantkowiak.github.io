@@ -34,9 +34,9 @@ header p {
 }
 
 .jumbotron {
-  background-image: url('http://oi66.tinypic.com/2125t3a.jpg');
-  
-  height: 150%;
+  background-image: url('images/background.jpg');
+  background-size: cover;
+  padding: 15em;
 }
 
 .jumbotron h2 {
@@ -47,7 +47,7 @@ header p {
 
 .jumbotron p {
   font-size: 1,5em; 
-  margin: 1em;
+  margin: 0 0 1em 1em;
   color: #000000;
 }
 
