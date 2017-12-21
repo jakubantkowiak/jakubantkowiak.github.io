@@ -36,7 +36,7 @@ header p {
 .jumbotron {
   background-image: url('images/background.jpg');
   background-size: cover;
-  padding: 15em;
+  padding: 10em;
 }
 
 .jumbotron h2 {
@@ -47,7 +47,6 @@ header p {
 
 .jumbotron p {
   font-size: 1,5em; 
-  margin: 0 0 1em 1em;
   color: #000000;
 }
 
