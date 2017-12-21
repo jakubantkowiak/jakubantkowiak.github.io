@@ -44,7 +44,7 @@ header p {
 @media only screen and (min-width: 768px) {
     .jumbotron {
 		background-image: url('images/background.jpg');
-        padding: 14.5em;
+        padding: 7em;
     }
 }
 
@@ -52,17 +52,28 @@ header p {
   font-size: 2em; 
   margin: 0px;
   color: #000000;
-  padding: 1em;
+  padding: 0.5em;
 }
-
+@media only screen and (min-width: 768px) {
+    .jumbotron  h2{
+		font-size: 2em; 
+    
+    }
+}
 .jumbotron p {
-  font-size: 1,5em; 
+  font-size: 1em; 
   color: #000000;
-  padding: 1em;
+  padding: 0.5em;
 }
 
+@media only screen and (min-width: 768px) {
+    .jumbotron  p{
+		font-size: 2em; 
+        padding: 0.7em;
+    }
+}
 h2 {
-  font-size: 2em; 
+  font-size: 1.5em; 
   font-weight: 300;
   margin: 0px;
   color: #000000;	
