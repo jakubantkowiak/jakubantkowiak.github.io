@@ -32,9 +32,17 @@ footer .row {
 
 header h1 {
   font-family: future;
-  font-size: 2em; 
-  margin: 50px 75px 20px;
+  font-size: 1em; 
+  margin: 4em 0 0 10em ;
   padding: 0px;
+}
+
+@media only screen and (min-width: 768px){
+	header h1 {
+	font-size: 2em;
+	text-align:left;
+	margin: 1.5em 0 0 3em ;
+			}
 }
 
 header p {
