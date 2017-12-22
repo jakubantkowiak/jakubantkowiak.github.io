@@ -73,7 +73,9 @@ header p {
   font-family: future;
   font-size: 0.7em; 
   color: #000000;
-  padding: 0.3em;
+  padding: 1em;
+  margin-left: 2em;
+  margin-right: 2em;
 }
 
 @media only screen and (min-width: 768px) {
