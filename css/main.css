@@ -117,30 +117,35 @@ section .row img {
 
 section .center-block img {
 
-	padding-bottom:: 10em;
+	padding-bottom:: 1em;
 	width: 10em;
   height: auto;
 
 }
-.col-md-6 {
-  margin: 0 0 0px;
-}
 
-section .center-block p {
+section .center-block p{
+
   font-family: future;
-  font-size: 0.7em;
+  font-size: 1em;
+  padding: 2em;
   color: #000000;
-  padding: 4em;
 
 }
 
 @media only screen and (min-width: 768px) {
     section .center-block  p{
-		font-size: 1em;
-      padding: 4em;
-        color: #000000;
+      font-family: future;
+		  font-size: 1em;
+      padding: 1em;
+      color: #000000;
     }
 }
+.col-md-6 {
+  margin: 0 0 0px;
+}
+
+
+
 
 .col-md-6 {
   margin: 0 0 0px;
@@ -182,4 +187,10 @@ footer ul {
 footer li img {
   width: 32px;
   height: 32px;
+}
+
+
+.facebookicon {
+    width: 100%;
+    height: auto;
 }
