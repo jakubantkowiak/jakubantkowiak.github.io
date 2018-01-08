@@ -81,7 +81,7 @@ header p {
 .jumbotron p {
   font-family: future;
   font-size: 0.7em;
-  color: #000000;
+  color: #FFFFFF;
   padding: 0;
   margin-left: 2em;
   margin-right: 10em;
@@ -91,6 +91,7 @@ header p {
     .jumbotron  p{
 		font-size: 1.5em;
         padding: 1em;
+        color: #FFFFFF;
     }
 }
 h2 {
