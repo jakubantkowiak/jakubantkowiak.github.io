@@ -117,9 +117,10 @@ section .row img {
 
 section .center-block img {
 
-	margin: 0px;
+	padding-bottom:: 10em;
 	width: 10em;
   height: auto;
+
 }
 .col-md-6 {
   margin: 0 0 0px;
