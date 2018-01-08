@@ -81,7 +81,7 @@ header p {
 .jumbotron p {
   font-family: future;
   font-size: 0.7em;
-  color: #FFFFFF;
+  color: #000000;
   padding: 0;
   margin-left: 2em;
   margin-right: 10em;
@@ -90,8 +90,8 @@ header p {
 @media only screen and (min-width: 768px) {
     .jumbotron  p{
 		font-size: 1.5em;
-        padding: 1em;
-        color: #FFFFFF;
+    padding-top: 2em;
+        color: #000000;
     }
 }
 h2 {
@@ -106,7 +106,7 @@ h2 {
   color: #000000;
 }
 .jumbotron p {
-	color: #FFFFFF;
+	color: #000000;
 }
 
 section .row img {
@@ -118,8 +118,29 @@ section .row img {
 section .center-block img {
 
 	margin: 0px;
-	width 2em;
+	width: 10em;
+  height: auto;
 }
+.col-md-6 {
+  margin: 0 0 0px;
+}
+
+section .center-block p {
+  font-family: future;
+  font-size: 0.7em;
+  color: #000000;
+  padding: 4em;
+
+}
+
+@media only screen and (min-width: 768px) {
+    section .center-block  p{
+		font-size: 1em;
+      padding: 4em;
+        color: #000000;
+    }
+}
+
 .col-md-6 {
   margin: 0 0 0px;
 }
