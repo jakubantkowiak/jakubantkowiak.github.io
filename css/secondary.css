@@ -35,3 +35,12 @@
   outline-color: rgba(55, 55, 55, 0);
   outline-offset: 15px;
   text-shadow: 1px 1px 2px #427388; }
+
+.facebookicon {
+  width: auto;
+  height: auto; }
+
+  section .facebookicon img {
+      width: 4em;
+      height: auto;
+  }
