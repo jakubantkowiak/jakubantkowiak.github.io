@@ -36,11 +36,7 @@
   outline-offset: 15px;
   text-shadow: 1px 1px 2px #427388; }
 
-.facebookicon {
-  width: auto;
-  height: auto; }
-
-  section .facebookicon img {
-      width: 4em;
-      height: auto;
-  }
+.socialicon img {
+  width: 4em;
+  height: auto;
+  padding: 1em; }

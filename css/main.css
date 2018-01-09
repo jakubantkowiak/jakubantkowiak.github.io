@@ -115,6 +115,14 @@ section .row img {
     height: auto;
 }
 
+
+@media only screen and (min-width: 768px) {
+    section .row img{
+    	margin-bottom: 25px;
+        width: 5.5em;
+        height: auto;
+    }
+}
 section .center-block img {
 
 	padding-bottom:: 1em;
@@ -187,10 +195,4 @@ footer ul {
 footer li img {
   width: 32px;
   height: 32px;
-}
-
-
-.facebookicon {
-    width: 100%;
-    height: auto;
 }
