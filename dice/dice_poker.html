@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+div.row{
+
+background-image: url('background.jpg');
+background-repeat: no-repeat;
+}
+
+div.dice{
+	float:left;
+	width:1em;
+	height: auto;
+	padding-left:4.5em;
+	padding-top:14em;
+	font-size:24px;
+	text-align:left;
+}
+
+h3{
+font-family: Arial;
+
+}
+</style>
+<script>
+function rollDice(){
+    //var die1 = document.getElementById("die1");
+    //var die2 = document.getElementById("die2");
+		//var die3 = document.getElementById("die3");
+    var status = document.getElementById("status");
+
+    var d1 = Math.floor(Math.random() * 6) + 1;
+    var d2 = Math.floor(Math.random() * 6) + 1;
+		var d3 = Math.floor(Math.random() * 6) + 1;
+		var d4 = Math.floor(Math.random() * 6) + 1;
+		var d5 = Math.floor(Math.random() * 6) + 1;
+
+var dice1background = d1+".png";
+var dice2background = d2+".png";
+var dice3background = d3+".png";
+var dice4background = d4+".png";
+var dice5background = d5+".png";
+
+var schoolrolled1 = -1;
+
+if(d1 == 1){
+	schoolrolled1 +=1;
+}
+
+if(d2 == 1){
+	schoolrolled1 +=1;
+}
+
+if(d3 == 1){
+	schoolrolled1 +=1;
+}
+
+if(d4 == 1){
+	schoolrolled1 +=1;
+}
+
+if(d5 == 1){
+	schoolrolled1 +=1;
+}
+
+
+var schoolrolled2 = -2;
+
+if(d1 == 2){
+	schoolrolled2 +=2;
+}
+
+if(d2 == 2){
+	schoolrolled2 +=2;
+}
+
+if(d3 == 2){
+	schoolrolled2 +=2;
+}
+
+if(d4 == 2){
+	schoolrolled2 +=2;
+}
+
+if(d5 == 2){
+	schoolrolled2 +=2;
+}
+
+var schoolrolled3 = -3;
+
+if(d1 == 3){
+	schoolrolled2 +=3;
+}
+
+if(d2 == 3){
+	schoolrolled2 +=3;
+}
+
+if(d3 == 3){
+	schoolrolled2 +=3;
+}
+
+if(d4 == 3){
+	schoolrolled2 +=3;
+}
+
+if(d5 == 3){
+	schoolrolled2 +=3;
+}
+
+var schoolrolled4 = -4;
+
+if(d1 == 4){
+	schoolrolled2 +=4;
+}
+
+if(d2 == 4){
+	schoolrolled2 +=4;
+}
+
+if(d3 == 4){
+	schoolrolled2 +=4;
+}
+
+if(d4 == 4){
+	schoolrolled2 +=4;
+}
+
+if(d5 == 4){
+	schoolrolled2 +=4;
+}
+
+    document.getElementById('dice1_image').src=dice1background;
+    document.getElementById('dice2_image').src=dice2background;
+		document.getElementById('dice3_image').src=dice3background;
+		document.getElementById('dice4_image').src=dice4background;
+		document.getElementById('dice5_image').src=dice5background;
+
+    status.innerHTML = "Points for rolling 1's eqals "+schoolrolled1+". </br> Points for rolling 2's eqals "+schoolrolled2+".";
+
+  var diceTotal = d1 + d2 + d3 + d4 + d5;
+
+}
+</script>
+</head>
+<body>
+<div class="row">
+<h3></br>POKER DICE</h3>
+
+<div id="die1" class="dice"><img id="dice1_image" src="1.png" style="width:2em"></div>
+<div id="die2" class="dice"><img id="dice2_image" src="1.png" style="width:2em"></div>
+<div id="die3" class="dice"><img id="dice3_image" src="1.png" style="width:2em"></div>
+<div id="die4" class="dice"><img id="dice4_image" src="1.png" style="width:2em"></div>
+<div id="die5" class="dice"><img id="dice5_image" src="1.png" style="width:2em"></div>
+
+<button onclick="rollDice()">Roll Dice</button>
+
+<h2 id="status" style="clear:left;"></h2>
+</div>
+</body>
+</html>
